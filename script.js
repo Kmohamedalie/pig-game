@@ -63,7 +63,10 @@ const switchPlayer = function () {
 // Rolling dice functionality
 btnRoll.addEventListener('click', function () {
   // roll play sound
-  roll.play();
+  if (scores[activePlayer] < 100) {
+    roll.play();
+  };
+  
   if (playing) {
     //1. Generating a random dice roll
     const dice = Math.trunc(Math.random() * 6) + 1;
