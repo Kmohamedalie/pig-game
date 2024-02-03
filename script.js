@@ -23,6 +23,8 @@ const roll = document.createElement('audio');
 roll.src = 'roll.mp3';
 const select = document.createElement('audio');
 select.src = 'select.mp3';
+const success = document.createElement('audio');
+success.src = 'success.mp3';
 
 // declaring a variable outside
 let scores, currentScore, activePlayer, playing;
@@ -96,6 +98,7 @@ btnHold.addEventListener('click', function () {
     // 2. Check if player's score is >= 100
     if (scores[activePlayer] >= 100) {
       // Finish the game
+      success.play();
       playing = false;
       diceEl.classList.add('hidden');
       document
