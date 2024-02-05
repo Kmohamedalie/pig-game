@@ -17,9 +17,15 @@ A demo is available at the bottom!
 
 
 <br><br>
+### FlowChart / Game Logic:
+
+![pig-game-flowchart](https://github.com/Kmohamedalie/pig-game/assets/63104472/e3acde95-e9ae-49f0-a96f-819163b05a28)
+
 
 
 <center>
+
+### Demo:
 
 https://github.com/Kmohamedalie/pig-game/assets/63104472/6c1693da-7d75-428a-83af-09cfa83cb37a
 
